@@ -14,7 +14,7 @@ app:
     schemaPath: /graphql # OR...
 #     filePath: introspectionSchema.json
     operation: ALL # Types: ALL, QUERY, MUTATION
-    requestMethod: GET # Types: POST, GET
+    requestMethod: POST # Types: POST, GET
   autoPolicy: true
   autoInputVectors: true
   # Configuration Docs: https://docs.stackhawk.com/hawkscan/configuration/
